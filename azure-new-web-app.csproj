@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>azure_new_web_app</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/5fdbd7c8-0bd6-4f24-8098-6dad407d158f/resourceGroups/Sathish/providers/microsoft.insights/components/az-web-app-sathish</ApplicationInsightsResourceId>
+    <UserSecretsId>9bfb2995-510f-43b2-b036-bd294fcc4b85</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
