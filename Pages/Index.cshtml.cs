@@ -16,6 +16,5 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-        ViewData["Greeting"] = _configuration["Greetings"];
     }
 }
