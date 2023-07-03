@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using azure_new_web_app.Data;
 
-namespace azure_new_web_app.Pages
+namespace azure_new_web_app.Pages.Persons
 {
     public class IndexModel : PageModel
     {
